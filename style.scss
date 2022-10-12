@@ -1,0 +1,253 @@
+@import 'https://fonts.googleapis.com/css?family=Ubuntu:300, 400, 500, 700';
+
+.container{
+  display: inline-block;
+}
+.typed-out{
+  overflow: hidden;
+  border-right: .15em solid #D9B310;;
+  white-space: nowrap;
+  animation: 
+  typing 1s steps(20, end) forwards;
+  width: 0;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+body {
+  
+  background: #fff;
+  color: #333;
+  font-family: 'Ubuntu', sans-serif;
+  //position: relative;
+}
+
+
+footer {
+  background: #dddee1;
+  padding: 5vh 0;
+  text-align: center;
+  position: relative;
+}
+
+nav{
+  background-color: #D9B310;
+  
+}
+
+.nav-link{
+  font-size: 1.2em !important;
+  margin: 7px;
+  color: #262626 !important;
+  font-family: 'Raleway';
+  // si pongo padding 0 aqui se pone raro
+}
+.nav-item{
+  border-radius: 4px;
+}
+
+.nav-item:hover{
+  background-color: #0B3C5D;
+}
+.nav-item:hover .nav-link{
+  color: white !important;
+}
+
+a {
+	text-decoration: none;
+  color: black !important;
+}
+.nav-div{
+  margin-left: auto; 
+  margin-right: 0;
+}
+
+
+// .navbar{
+//   margin: 0px !important;
+// }
+
+
+
+
+header{
+  
+	height: 100vh;
+	background-color: #1E2631;
+	color: white;
+  padding: 12%;
+  box-shadow: 3px 3px 5px 6px #ccc;
+	
+}
+.introduction{
+  display: flex;
+	justify-content: center;
+  align-items: center;
+	flex-direction: column;
+  padding: 10%;
+  text-align: center;
+}
+h1{ margin: 0; font-size: 50px; font-family: 'Raleway';}
+.descr { margin: 0; font-size: 25px; color: #D9B310;}
+
+.code-div1{
+  height: 10%;
+  display: flex;
+  justify-content: flex-start;
+}
+.code-div2{
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skills{
+  background-color: #0B3C5D;
+  text-align: center;
+  padding-bottom: 160px;
+}
+.flex-container{
+  display: flex;
+  align-items: center;
+}
+.skill{
+  margin: 20%;
+  padding: 2%;
+  background-color: #D9B310;
+  text-align: center;
+}
+h2{ color: white; margin: 0; font-size: 35px; font-family: 'Raleway'; padding-top: 80px;}
+.hr1{ color: white; width: 35%; margin-left: auto; margin-right: auto;}
+.card {
+  width: 300px;
+  margin: 2%;
+  justify-content: center;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+.card-deck{
+  display: flex;
+  justify-content: center;
+  
+}
+.card-img-top{
+  max-width: 40%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.animation {
+  position: relative;
+  animation: animation 2s ease-out;
+}
+
+#slide-in {
+  text-align: center;
+  color: #fff;
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+    left: -700px;
+  }
+
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+
+.education{
+  background-color: #1E2631;
+  text-align: center;
+  padding: 2%;
+}
+.intec1{
+  width: 300px;
+
+}
+.intec2{
+  width: 300px;
+  border-left: 1.5px solid white;
+  border-radius: 0 4px 4px 0;
+  align-items: center;
+  padding: 8px;
+  background-color: #0B3C5D;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  
+}
+.intec{
+  text-align: left;
+  margin: 10%;
+  
+}
+
+.intec-logo{
+  min-width: 50%;
+  max-width: 50%;
+}
+.p-ed{
+  color: white;
+  font-size: 18px;
+}
+
+.never{
+  text-align: left;
+  margin: 10%;
+}
+
+
+/*Competencies*/
+
+#competencies-section{
+  background-color: #0B3C5D;
+  color: white;
+  text-align: center;
+  align-items: center;
+  
+}
+.competencies{
+  justify-content: center;
+  align-items: center;
+}
+.competencies-div{
+  text-align: left;
+  margin: 4%;
+  font-size: 20px;
+  width: 200px;
+  font-family: sans-serif;
+}
+.web-dev-img{
+  width: 90%; 
+  height: 90%;
+}
+
+/*References*/
+
+.references{
+  text-align: center;
+  background-color: #1E2631;	
+}
+.ref-card{
+  padding: 2%;
+}
+
+/*Contact me page*/
+
+.contact {
+	background-color: #705d09;	
+  height: 50vh;
+  color: black;
+}
+
+#profile-link{
+  padding: 10px;
+}
+
+.profile-img:hover{
+	width: 45px;
+}
