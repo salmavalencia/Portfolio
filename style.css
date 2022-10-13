@@ -21,7 +21,6 @@ body {
   background: #fff;
   color: #333;
   font-family: 'Ubuntu', sans-serif;
-  //position: relative;
 }
 
 
@@ -42,7 +41,7 @@ nav{
   margin: 7px;
   color: #262626 !important;
   font-family: 'Raleway';
-  // si pongo padding 0 aqui se pone raro
+
 }
 .nav-item{
   border-radius: 4px;
@@ -64,10 +63,6 @@ a {
   margin-right: 0;
 }
 
-
-// .navbar{
-//   margin: 0px !important;
-// }
 
 
 
